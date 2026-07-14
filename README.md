@@ -67,7 +67,7 @@ Readers are able to experience journalism through multiple formats, improving ac
 
 ---
 
-## Events Platform (!)
+## Events Platform (✓)
 
 Introducing the foundation for future 'News At Noire' events.
 
