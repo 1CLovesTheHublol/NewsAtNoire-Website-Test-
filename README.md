@@ -173,7 +173,7 @@ The goal is expansion without losing the identity established in V1.
 
 ---
 
-# Future Development (!)
+# Future Development (⚠︎)
 
 Upcoming versions will continue expanding 'News At Noire' into a complete publication ecosystem.
 
@@ -187,7 +187,7 @@ Planned V3 features include:
 
 ---
 
-## Research Assistance & Data Maps
+## Research Assistance & Data Maps (!)
 
 A highly coded and versatile research tool designed to connect information, topics, and sources based on relevance.
 
@@ -219,7 +219,7 @@ This transforms 'News At Noire' from a content archive into an evolving knowledg
 
 ---
 
-## Digital Magazine System
+## Digital Magazine System (!)
 
 A new publication format designed to replicate the experience of traditional magazines digitally.
 
@@ -234,7 +234,7 @@ Features will include:
 
 ---
 
-## Advanced Editorial Tools
+## Advanced Editorial Tools (!)
 
 Expanding the capabilities available to editors and contributors.
 
@@ -248,7 +248,7 @@ Planned features:
 
 ---
 
-## Community & Membership Infrastructure
+## Community & Membership Infrastructure (!)
 
 Creating stronger connections between readers, contributors, and the publication.
 
@@ -263,7 +263,7 @@ Future features:
 
 ---
 
-## Global Content Management Systems
+## Global Content Management Systems (!)
 
 Expanding the platform into a scalable publication infrastructure.
 
