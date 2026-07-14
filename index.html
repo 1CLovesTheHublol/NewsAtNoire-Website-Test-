@@ -57,21 +57,21 @@
     border-bottom:1px solid var(--ink);
   }
   .topbar-inner{
-    max-width:1180px;margin:0 auto;padding:10px 24px;
-    display:flex;align-items:center;justify-content:space-between;gap:16px;
+    max-width:1180px;margin:0 auto;padding:12px clamp(16px,3vw,24px);
+    display:flex;flex-wrap:wrap;align-items:center;gap:10px clamp(12px,2vw,28px);
   }
-  .brandmark{font-family:var(--serif);font-size:1.15rem;letter-spacing:.02em;white-space:nowrap}
+  .brandmark{order:1;font-family:var(--serif);font-size:clamp(1.02rem,1.4vw,1.2rem);letter-spacing:.02em;white-space:nowrap}
   .brandmark em{font-style:italic;color:var(--maroon)}
-  .nav-links{display:flex;flex-wrap:wrap;align-items:center;gap:15px}
+  .nav-links{order:3;flex-basis:100%;display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:clamp(9px,1vw,14px);row-gap:8px;padding-top:11px;border-top:1px solid rgba(26,26,26,.16)}
   .nav-links a{
-    font-family:var(--sans);font-size:.68rem;letter-spacing:.16em;
+    font-family:var(--sans);font-size:clamp(.6rem,.72vw,.68rem);letter-spacing:.13em;
     text-transform:uppercase;color:var(--ink);padding:4px 0;
     border-bottom:1px solid transparent;transition:border-color .15s,color .15s;
   }
   .nav-links a:hover{color:var(--maroon);border-color:var(--maroon)}
   .nav-links a.home{display:inline-flex;align-items:center;gap:7px}
   .nav-links a.home svg{width:14px;height:14px;flex:none}
-  .nav-links a + a::before{content:"\2022";margin-right:15px;color:var(--ink);opacity:.5;font-size:.5rem;line-height:1;vertical-align:middle}
+  .nav-links a + a::before{content:"\2022";margin-right:clamp(9px,1vw,14px);color:var(--ink);opacity:.5;font-size:.5rem;line-height:1;vertical-align:middle}
   /* ---- Expanding search ---- */
   .nav-search{display:inline-flex;align-items:center;gap:8px;margin:0 10px 0 6px;border:1px solid var(--ink);border-radius:999px;padding:0 4px 0 14px;height:34px;overflow:hidden;transition:box-shadow .18s ease;background:transparent}
   .nav-search:focus-within{box-shadow:0 0 0 3px rgba(110,20,35,.16)}
@@ -84,7 +84,7 @@
   .nav-search.open .go,.nav-search:focus-within .go{display:inline-flex;background:var(--maroon);color:var(--cream)}
   .nav-search .toggle{display:inline-flex;align-items:center;background:none;border:none;cursor:pointer;padding:6px 2px}
   .nav-cta{
-    position:relative;overflow:hidden;isolation:isolate;
+    order:2;margin-left:auto;flex:none;position:relative;overflow:hidden;isolation:isolate;
     font-family:var(--sans);font-size:.7rem;letter-spacing:.16em;text-transform:uppercase;
     background:var(--maroon);border:1px solid var(--maroon);color:var(--cream);padding:7px 16px;transition:background .15s;white-space:nowrap;
   }
@@ -290,11 +290,15 @@
         <a class="home" href="index.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l9-7 9 7"></path><path d="M5 10v9h5v-5h4v5h5v-9"></path></svg>Home</a>
         <a href="coming-soon.html">News</a>
         <a href="coming-soon.html">Politics</a>
-        <a href="coming-soon.html">Literature</a>
+        <a href="literature.html">Literature</a>
         <a href="coming-soon.html">History</a>
         <a href="coming-soon.html">Culture</a>
         <a href="coming-soon.html">Economics</a>
         <a href="coming-soon.html">Essays</a>
+        <a href="library.html">Library</a>
+        <a href="audio.html">Audio</a>
+        <a href="events.html">Events</a>
+        <a href="newsletter.html">Briefing</a>
         <a href="coming-soon.html">Archive</a>
         <form class="nav-search" id="navSearch" role="search" action="search.html" method="get">
           <button type="button" class="toggle" id="searchToggle" aria-label="Open search" aria-expanded="false" aria-controls="searchField">
@@ -326,13 +330,13 @@
     <a href="coming-soon.html">All Essays →</a>
   </div>
   <section class="featured" data-cms="hero">
-    <a class="lead-art" href="coming-soon.html" aria-label="Featured essay — coming soon">
+    <a class="lead-art" href="article.html" aria-label="Article Layout">
       <span class="stamp">Coming Soon<small>Featured Essay</small></span>
     </a>
     <div class="lead-copy">
       <span class="kicker">The Lead Essay</span>
-      <h3><a href="coming-soon.html">On Freedom, Memory, and the Unfinished Work of Democracy</a></h3>
-      <p>A meditation on the long arc of Black political thought — from abolition to the present — and what it demands of us now.</p>
+      <h3><a href="article.html">Article Layout</a></h3>
+      <p>The recommended layout for published articles and essay use — wanna see how a piece may be structured?</p>
       <span class="byline">Full essay · Coming Soon</span>
     </div>
   </section>
@@ -381,14 +385,14 @@
     </article>
     <article class="story">
       <span class="kicker">History</span>
-      <h4><a href="coming-soon.html">Reading the Reconstruction Again</a></h4>
-      <p>What a contested century still teaches about power and repair.</p>
+      <h4><a href="coming-soon.html">???</a></h4>
+      <p>???</p>
       <span class="byline">Coming Soon</span>
     </article>
     <article class="story">
       <span class="kicker">Culture</span>
-      <h4><a href="coming-soon.html">The Aesthetics of Resistance</a></h4>
-      <p>Art, letters, and the language of liberation.</p>
+      <h4><a href="coming-soon.html">???</a></h4>
+      <p>???</p>
       <span class="byline">Coming Soon</span>
     </article>
   </section>
@@ -468,6 +472,7 @@
       <span class="kicker">The Noire Dispatch</span>
       <h2>Essays and history, delivered.</h2>
       <p>Join the mailing list for new essays, interviews, and criticism from News At Noire.</p>
+      <p style="margin-top:-8px"><a href="newsletter.html" style="color:#e0a4ad;font-family:var(--sans);font-size:.72rem;letter-spacing:.12em;text-transform:uppercase">Explore the Noire Briefing →</a></p>
       <form onsubmit="event.preventDefault();this.reset();this.querySelector('button').textContent='Thank you';">
         <input type="email" placeholder="your@email.com" aria-label="Email address" required>
         <button type="submit">Subscribe</button>
@@ -500,9 +505,13 @@
       <div class="foot-col">
         <h5>Read</h5>
         <a href="coming-soon.html">Essays</a>
-        <a href="coming-soon.html">Literature</a>
+        <a href="literature.html">Literature</a>
+        <a href="library.html">Research Library</a>
+        <a href="audio.html">Audio</a>
+        <a href="events.html">Events</a>
+        <a href="newsletter.html">Noire Briefing</a>
         <a href="coming-soon.html">Archive</a>
-        <a href="coming-soon.html">Search</a>
+        <a href="search.html">Search</a>
       </div>
       <div class="foot-col">
         <h5>The Publication</h5>
