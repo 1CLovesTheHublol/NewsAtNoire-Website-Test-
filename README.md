@@ -103,7 +103,7 @@ Future smart search capabilities will allow readers to search through content us
 
 ---
 
-## Data Journalism Tools (!)
+## Data Journalism Tools (✓)
 
 Introducing future capabilities for visual storytelling.
 
