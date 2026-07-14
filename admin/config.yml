@@ -5,11 +5,11 @@
 
 backend:
   name: github
-  repo:  https://github.com/1CLovesTheHublol/newsatnoire/blob/main/admin/config.yml      # <-- change to your repo, e.g. newsatnoire/site
+  repo:  repo: 1CLovesTheHublol/newsatnoire      # <-- change to your repo, e.g. newsatnoire/site
   branch: main                       # <-- your default branch
   # OAuth broker that lets GitHub login work on GitHub Pages.
   # Free options: Netlify, or a Cloudflare Worker. Set the URL below once deployed.
-  base_url: https://noire-oauth.cxml42903.workers.dev
+  base_url: https://divine-boat-b46a.cxml42903.workers.dev
   auth_endpoint: auth
 
 # Where uploaded images land, and how they're referenced on the site
