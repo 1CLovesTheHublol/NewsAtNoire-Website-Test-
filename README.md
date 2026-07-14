@@ -181,7 +181,7 @@ Upcoming versions will continue expanding 'News At Noire' into a complete public
 - Community platform
 - User accounts
 - Membership infrastructure
-- AI editorial tools
+- Intricate editorial tools
 - Advanced page builder
 - Global content management systems
 - Expanded contributor networks
